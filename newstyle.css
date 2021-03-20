@@ -5,6 +5,7 @@ body {
     color: rgb(78, 60, 37);
     background-image: url("./Assets/bg.PNG");
     background-repeat: repeat;
+    align-content: center;
   }
   h2, p, ul, li {
     font-family: 'Abel', sans-serif;
@@ -33,7 +34,8 @@ body {
     border: none;
   }
   li a:hover {
-    background-color: bisque;
+    background-image: url("./Assets/bg.PNG");
+    background-repeat: repeat;
     border-radius: 100%;
     border-color: burlywood;
     border-width: 1px;
@@ -42,25 +44,27 @@ body {
 h1 {
     text-shadow: 2px 2px 4px #000000;
     color: white;
-    font-size: 65px;
+    font-size: 50px;
     font-family: 'Great Vibes', cursive;
     padding-top: 150px;
-    text-align: bottom;
+    text-decoration: none;
+    text-indent: none;
+    position: bottom;
 }
 h2 {
   text-shadow: 2px 2px 4px #000000;
-  color: antiquewhite;
+  color: rgb(202, 215, 231);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 45px;
+  font-size: 35px;
 }
   #welcomebox {
-    width: 100vh;
-    height: 100vh;
+    width: 900px;
+    height: 75vh;
     background-color: white;
     border: rgb(109, 87, 59);
     border-style: double;
     /* padding: 20px; */
-    align-content: top;
+    align-content: top, center;
     text-align: top;
     /* padding: 20px; */
     border-radius: 15px;
@@ -71,8 +75,9 @@ h2 {
     padding: none;
   }
   .name {
-    float: bottom;
-    padding-top: 5px;
+    margin-top: 70px;
+    margin-left: 0px;
+    padding-left: 0px;
   }
 #titlep {
   padding-top: 10px;

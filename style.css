@@ -1,13 +1,12 @@
 body {
 font-size: 15px;
 font-weight: 400;
-color: grey;
-background-image: url("./Assets/bg.PNG");
-background-repeat: repeat-y;
+color: white;
+background-color: #c4d8df;
 }
  
 a {
-color:#B0C4DE;
+color:white;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: bolder;
 font-size:smaller;
@@ -15,7 +14,7 @@ font-size:smaller;
 }
 
 b {
-color:#4682B4;
+color:antiquewhite;
 font-weight: bold;
 font-size: 12px;
 }
@@ -23,40 +22,74 @@ h1 {
 color: white; 
 font-family: 'Great Vibes', cursive;
 text-shadow: 2px 2px 4px #000000;
-
+}
+h2 {
+  text-shadow: 2px 2px 4px rgb(226, 199, 181);
+  color: rgb(121, 104, 104);
+  font-family: 'Great Vibes', cursive;
+  font-size: 35px;
 }
 h6 {
     color: #696969; 
     }
 
-.img-thumbnail {
-    width:250px;
-    height:270px;
-}
-#breakers {
-    padding-left: 50px; 
+    h2, p, ul, li {
+        font-family: 'Abel', sans-serif;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
 
+.img-thumbnail {
+    width:275px;
+    height:300px;
+    border: black;
+    border-width: 3px;
 }
+/* #breakers {
+    padding-left: 50px;  */
+
+/* } */
 #content1 {
 width: 100%;
+height: auto;
  padding-top: 150px;
  padding-left: 50px; 
  padding-right: 50px;  
- border: thin;
+ border: solid;
+ border-color: #c4d8df;
+ background-color: #c4d8df;
 
 }
 #content2{
-background-color: #bbdbf1;
-background-image: url("./Assets/Bannerbg.PNG"); 
-padding-top: 20px; 
+background-color: #c4d8df;
+/* background-image: url("./Assets/Bannerbg.PNG"); 
+background-repeat: no-repeat;  */
+height: 290px;
+padding-top: 0px; 
 padding-left: 20px; 
 padding-bottom: 20px;
+border: none;
 }
+#content3{
+    background-color: rgb(121, 104, 104);
+    padding-top: 30px; 
+    padding-left: 20px; 
+    padding-bottom: 20px;
+    border: double;
+    border-color: black;
+    border-radius: 15px;
+    height: 100%;
+}
+
 #portfoliolayout {
 padding-right: 50px;
 padding-left: 50px;
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 75px;
+padding-bottom: 75px;
 }
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
@@ -74,25 +107,53 @@ padding-bottom: 50px;
 @media (min-width: 1200px) { ... 
 }
 footer {
-background-color:#bbdbf1;
-background-image: url("./Assets/blue.gif");
+background-color:rgb(121, 104, 104);
 text-align:center;
 padding:10px;
-margin-top:7px; 
-position: fixed-bottom
+margin-top:7px;
+border:none;
+
 }
 #headerbr {
-    background-color: #bbdbf1;
-    background-image: url("./Assets/blue.gif");
-    border: #4682B4;
-    border-style: double;
-    border-width: 1px;
+    background-color: rgb(121, 104, 104);
+    width:"100%";
+    border: none;
 }
 #buttonn {
-    background-color: #bbdbf1;
-    border: #d6d9db;
+    background-color:   rgb(94, 84, 84);
+    border: none;
+}
+#button:hover {
+      background-color: #c6e3ee; 
 }
 #maincont {
     border: black;
     border-style: double;
 }
+.img02 {
+max-width: 100%;
+height: auto;
+padding: 0px;
+}
+#topnav a {
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  #topnav a:hover {
+    background-color: rgb(179, 165, 165);
+    color: rgb(238, 235, 235);
+    
+  }
+  
+  /* Add an active class to highlight the current page */
+  #topnav a.active {
+    background-color: rgb(97, 89, 89);
+    color: white;
+    font-weight: bold;
