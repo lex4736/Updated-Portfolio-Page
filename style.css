@@ -121,6 +121,15 @@ width: 100%;
   background-color: rgb(80, 87, 95);
   width: 250px;
 }
+#idcard {
+  background-color: rgb(28, 30, 32);
+  width: 400px;
+  padding:15px;
+  border: double;
+  border: darkgray;
+  border-width: 2px;
+  margin-left: 10px;
+}
 
 /* ==============MEDIA QUERIES======================= */
 
